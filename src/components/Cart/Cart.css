@@ -1,0 +1,120 @@
+.cartbask{
+    padding-bottom: 40px;
+    padding-top: 20px;
+    background-color: #F7F6F4;
+    margin-bottom: 60px;
+    margin-top: 50px;
+}
+.shoppingcontent {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  padding: 10px;
+}
+.calcprice{
+  display: none;
+}
+.shoppingcontent .shoppingdata {
+  display: flex;
+  column-gap: 10px;
+}
+.shoppingcontent .shoppingdata img {
+  width: 150px;
+  height: 150px;
+}
+.shoppingdata div p:first-child {
+  font-weight: 400;
+  font-size: 20px;
+}
+.shoppingdata div p:last-of-type {
+  font-weight: 600;
+  font-size: 20px;
+}
+.shopping label {
+  display: block;
+  text-align: right;
+  padding-bottom: 5px;
+  font-weight: 500;
+  font-size: 16px;
+}
+.shoppingbtn {
+  margin-top: 10px;
+}
+.shopping .minus1 {
+  color: #777777;
+  background-color: none;
+  border: 1px solid #777777;
+  margin-left: 5px;
+  padding: 1px 3px;
+}
+.shopping .plus1 {
+  color: #777777;
+  background-color: none;
+  border: 1px solid #777777;
+  margin-right: 5px;
+  padding: 1px 3px;
+}
+.shopping .remove {
+  color: #d93f3f;
+  background-color: none;
+  border: 1px solid #d93f3f;
+  margin-left: 10px;
+  text-align: right;
+  padding: 0 5px;
+}
+.shopping span:first-of-type {
+  padding: 10px;
+}
+.shopping span:last-of-type {
+  padding-right: 45px;
+  padding-left: 5px;
+}
+.shopping .plus1:hover,
+.shopping .minus1:hover {
+  color: white;
+  background-color: #d93f3f;
+}
+.bill {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.bill .billcontent {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 20px;
+}
+.bill .billcontent p{
+    transform: translateY(50%);
+    -webkit-transform: translateY(50%);
+    -moz-transform: translateY(50%);
+    -ms-transform: translateY(50%);
+    -o-transform: translateY(50%);
+}
+.bill .billcontent div p:first-of-type {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #777777;
+  text-decoration: 1px line-through #D93F3F ;
+}
+.bill .billcontent div p:last-of-type{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #333333;
+}
+.checkbtn{
+    width: 95%;
+    padding: 10px;
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    background-color: #D84727;
+    border: 1px solid #D84727;
+}

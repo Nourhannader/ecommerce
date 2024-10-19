@@ -1,0 +1,129 @@
+.header {
+  padding: 20px;
+  background-color: white;
+}
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.icons{
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+.icons .shoppingbag{
+  padding: 8px;
+  background-color: #f1ddc9;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+@media screen and (min-width:992px) {
+   .header .container .icon{
+    display: none;
+   }
+   .xmark{
+    display: none;
+   }
+
+}
+@media screen and (max-width:550px) {
+  img{
+    width: 150px;
+  }
+  .icons{
+    font-size: 15px;
+    column-gap: 15px;
+  }
+}
+@media screen and (max-width:390px) {
+  img{
+    width: 100px;
+  }
+  .icons{
+    font-size: small;
+    column-gap: 5px;
+  }
+  
+}
+.icons div{
+  margin-bottom: 15px;
+}
+.icons div a{
+  text-decoration: none;
+  color: black;
+  padding-left: 10px;
+  font-size: small;
+}
+.header .container .links ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 40px;
+}
+.header .container .links ul li a{
+  text-decoration: none;
+  color: #333333;
+  font-family: "Taviraj", serif;
+   font-size: 16px;
+   line-height: 34.12px;
+  letter-spacing: 0.02em;
+  text-align: left;
+
+}
+ul , .icons{
+  padding-top: 10px;
+}
+@media screen and (max-width:992px) {
+  .header .container .links ul{
+    flex-direction: column;
+    row-gap: 30px;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 100;
+    top: 80px;
+    left: 0px;
+    background-color:#c9c4c0;
+    width: 100%;
+    height: 50vh;
+    padding: 20px;
+    background-color: rgba(240, 234, 234, 0.5);
+     display: none;  
+  }
+  #show-menu-links{
+    display: flex;
+  }
+  #hide-menu-links{
+    display: none;
+  }
+  .header .container .links ul li a{
+    color: rgb(102, 98, 98);
+    margin-bottom: 20px;
+  }
+  .header .container .links ul li a:hover {
+    padding-left: 25px; 
+  }
+  .icon{
+    display: inline;
+  }
+  .xmark{
+    color: rgb(102, 98, 98);
+  }
+  
+}
+.visi{
+  display: flex;
+}
+.showCartbasket {
+  box-sizing: border-box;
+  position: absolute;
+  top : 0;
+  left: 0;
+  z-index: 1000;
+  background-color: rgb(0, 0, 0,0.5);
+  width: 100%;
+}

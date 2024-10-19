@@ -1,0 +1,20 @@
+body {
+  width: 100%;
+  margin: 0;
+  font-family: "Taviraj", serif;
+  background-color: #F7F6F4;
+  
+}
+html{
+  width: 100%;
+  background-color: #F7F6F4;
+}
+#root{
+  width: 100%;
+  background-color: #F7F6F4;
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
