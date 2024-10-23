@@ -339,7 +339,7 @@
   }
 
   .Testimonials .image .testimg {
-    width: 200x;
+    width: 200px;
     height: 200px;
     transform: translate(15%, -20%);
     -webkit-transform: translate(15%, -20%);
