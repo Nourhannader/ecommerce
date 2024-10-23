@@ -215,7 +215,7 @@ export default function Home() {
             <img src={line} className="w-75 imgline" alt="" />
             <img src={line} className="w-75 imgline" alt="" />
             <img src={Testimonials} className="testimg" alt="" />
-            <div>
+            <div className="testarrow">
               <FontAwesomeIcon className="arrowleft" icon={faArrowLeft} />
               <FontAwesomeIcon className="arrowright" icon={faArrowRight} />
             </div>

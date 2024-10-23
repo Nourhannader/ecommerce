@@ -332,12 +332,25 @@
     -ms-transform: translate(20%, -20%);
     -o-transform: translate(20%, -20%);
   }
+  .Testimonials .image {
+    position: relative;
+  }
+  .Testimonials .image .testarrow {
+    position: absolute;
+    left: 150px;
+    top: 260px;
+  }
 }
 @media screen and (max-width: 430px) {
   .Testimonials .image {
     width: 250px;
+    position: relative;
   }
-
+  .Testimonials .image .testarrow {
+    position: absolute;
+    left: 30px;
+    top: 260px;
+  }
   .Testimonials .image .testimg {
     width: 200px;
     height: 200px;
@@ -360,14 +373,13 @@
   .Testimonials .image {
     width: 200px;
     height: 200px;
+    position: relative;
   }
-  .Testimonials .image div {
-    transform: translate(20px, -130%);
-    -webkit-transform: translate(20px, -130%);
-    -moz-transform: translate(20px, -130%);
-    -ms-transform: translate(20px, -130%);
-    -o-transform: translate(20px, -130%);
-}
+  .Testimonials .image .testarrow {
+    position: absolute;
+    left: 20px;
+    top: 240px;
+  }
   .Testimonials .test-content {
     padding-left: 5px;
   }
@@ -402,7 +414,7 @@
   font-weight: 300;
   font-size: 16px;
 }
-.Testimonials .image div {
+.Testimonials .image .testarrow {
   transform: translate(70%, 0%);
   -webkit-transform: translate(70%, 0%);
   -moz-transform: translate(70%, 0%);
